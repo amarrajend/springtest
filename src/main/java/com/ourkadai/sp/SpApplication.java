@@ -11,7 +11,7 @@ public class SpApplication {
 
 	@GetMapping("/")
 	public String hello() {
-		return "Hello World from GitHub!";
+		return "Hello World from GitHub! - Ravi and Sat";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpApplication.class, args);
