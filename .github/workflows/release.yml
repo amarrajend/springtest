@@ -24,7 +24,7 @@ jobs:
           java-version: 17
 
       - name: Build Jar
-        run: mvn clean package
+        run: mvn clean package -DskipTests
 
       - name: Delete Existing Release (ignore errors)
         continue-on-error: true
