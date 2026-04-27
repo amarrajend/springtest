@@ -11,7 +11,6 @@ module com.ourkadai.sp.infra {
     requires java.sql;
 
     opens com.ourkadai.sp to spring.core, spring.beans, spring.context;
-    opens com.ourkadai.sp.db to spring.core, spring.beans, spring.context;
 
     exports com.ourkadai.sp;
 }
