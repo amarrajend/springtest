@@ -11,7 +11,7 @@ public class SpApplication {
 
 	@GetMapping("/")
 	public String hello() {
-		return "Hello World from GitHub! - Ravi ,Sat and Amarnath";
+		return "Hello World from GitHub! - Ravi ,Sat and Amarnath R";
 	}
 	public static void main(String[] args) throws Exception {
 
