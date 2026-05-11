@@ -11,9 +11,10 @@ public class SpApplication {
 
 	@GetMapping("/")
 	public String hello() {
-		return "Hello World from GitHub! - Ravi ,Sat and Amart";
+		return "Hello World from GitHub! - Ravi ,Sat and Amarnath";
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
+
 		SpringApplication.run(SpApplication.class, args);
 	}
 
